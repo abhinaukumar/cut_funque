@@ -1,0 +1,14 @@
+imageio
+ipykernel
+ipython
+joblib
+matplotlib
+numpy
+pillow
+PyWavelets
+scikit-learn
+scikit-video
+scipy
+pandas
+git+https://github.com/abhinaukumar/qualitylib
+git+https://github.com/abhinaukumar/videolib
