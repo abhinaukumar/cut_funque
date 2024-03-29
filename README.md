@@ -38,7 +38,7 @@ Install all required dependencies
 python3 -m pip install -r requirements.txt
 ```
 ### Extract features from one video pair
-To compute features from one video pair for either the FUNQUE(+) models or the baseline models, use the command
+To compute Cut-FUNQUE features from one video pair, use the command
 
 ```
 python3 extract_features.py --ref_video <path to reference video> --dis_video <path to distorted video>
@@ -50,7 +50,7 @@ python3 extract_features.py --help
 ```
 
 ### Extract features for all videos in a dataset
-First, define a subjective dataset file using the same format as that in [datasets/](https://github.com/abhinaukumar/funque_plus/tree/main/datasets). The dataset file provided here is that of the [LIVE-TMHDR](https://live.ece.utexas.edu/research/LIVE_TMHDR/index.html) dataset, which was used to benchmark Cut-FUNQUE.
+First, define a subjective dataset file using the same format as that in [datasets/](https://github.com/abhinaukumar/cut_funque/tree/main/datasets). The dataset file provided here is that of the [LIVE-TMHDR](https://live.ece.utexas.edu/research/LIVE_TMHDR/index.html) dataset, which was used to benchmark Cut-FUNQUE.
 
 
 Then, run
