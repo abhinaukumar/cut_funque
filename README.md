@@ -69,3 +69,6 @@ python3 crossval_features_on_dataset.py --dataset <path to dataset file> --split
 *Note: This command may be run without running `extract_features_from_dataset.py` first. In that case, features will be extracted and saved first, before performing cross-validation*
 
 This script is an example of down-stream tasks that can be performed easily after feature extraction.
+
+## Bugs, Suggestions, and Contributions
+If you encounter any bugs, or you have suggestions or contributions to improve this code base, please raise an [Issue](https://github.com/abhinaukumar/cut_funque/issues)!
